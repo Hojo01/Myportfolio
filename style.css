@@ -1,0 +1,83 @@
+
+nav {
+  width: 100%;
+  min-height: 10%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  width: 86;
+  height: 40;
+  opacity: 5;
+  padding-top: 10px;
+  padding-right: 12px;
+  padding-bottom: 10px;
+  padding-left: 5vh;
+  color: black;
+}
+
+nav a:first-child {
+  margin-right: auto;
+  color: #6070ff;
+  font-weight: 700%;
+  font-size: 300%;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+nav a:hover {
+  color: blue;
+}
+
+section {
+  background-image: url("Header bg .png");
+  min-height: auto;
+  color: #091e42;
+  font-size: 130%;
+  line-height: 200%;
+  width: 80%;
+  margin: auto;
+  padding-top: 19vh;
+  text-align: left;
+  justify-content: center;
+}
+
+.field {
+  color: black;
+  font-size: large;
+}
+
+footer {
+  color: #7f8cff;
+  text-align: left;
+  margin: auto;
+  width: 80%;
+}
+
+footer h5:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+footer .logos a img {
+  transition: 0.3s ease;
+}
+
+footer .logos a:hover img {
+  transform: scale(2);
+}
+
+.logos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3%;
+  margin: 0;
+  width: 100%;
+  padding-top: 0%;
+}
